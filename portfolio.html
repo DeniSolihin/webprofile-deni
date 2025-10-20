@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Profil Saya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Profil Saya</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="portfolio-section">
+            <h2>Portfolio Saya</h2>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <h3>Project 1</h3>
+                    <p>Website Company Profile</p>
+                    <span class="project-tag">HTML/CSS</span>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3>Project 2</h3>
+                    <p>Aplikasi Web JavaScript</p>
+                    <span class="project-tag">JavaScript</span>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3>Project 3</h3>
+                    <p>Mobile App Design</p>
+                    <span class="project-tag">UI/UX</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h2>Kontak Saya</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [Nama Anda]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
